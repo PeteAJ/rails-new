@@ -8,6 +8,6 @@ Rails.application.routes.draw do
     end
   end
 
-  get '/application', to: 'application#index'
+ root 'application#index'
 end
 

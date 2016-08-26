@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'angular-rails-templates'
+
 gem 'bower-rails'
 
 gem 'responders'

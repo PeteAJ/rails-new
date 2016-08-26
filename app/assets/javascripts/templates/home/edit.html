@@ -1,0 +1,9 @@
+
+<h1>Edit note</h1>
+<form validate ng-submit="ctrl.editNote()">
+  <label>Title</label>
+  <input type="text" ng-model="ctrl.note.title">
+  <label>Content</label>
+  <input type="text" ng-model="ctrl.note.body">
+  <input type="submit" value="Update Note">
+</form>
